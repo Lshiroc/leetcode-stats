@@ -52,4 +52,21 @@ router.get('/:username', async (req, res) => {
   }
 })
 
+router.get('/pic/bam', async (req, res) => {
+  const svg = `<svg width="300" height="200">
+    <rect
+      width="300"
+      height="200"
+      fill="purple"
+      stroke-width="4"
+      stroke="blue"
+      />
+  </svg>`
+  try {
+    res.status(200).send(svg);
+  } catch(err) {
+    res.status(500).json({message: err.message});
+  }
+})
+
 module.exports = router;
