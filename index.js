@@ -11,5 +11,11 @@ app.use(cors({
 const usersRouter = require('./routes/user');
 app.use('/user', usersRouter);
 
+const lightRouter = require('./routes/light');
+app.use('/light', lightRouter);
+
+const darkRouter = require('./routes/dark');
+app.use('/dark', darkRouter);
+
 app.listen(PORT, () => console.log("Server is up on localhost:8000"));
 
