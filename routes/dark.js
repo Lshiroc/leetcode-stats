@@ -32,7 +32,7 @@ router.get('/:username', async (req, res) => {
     }
   }
   `;
-  let circumstance = 2 * Math.PI * 40;
+  let circumstance = 2 * Math.PI * 50;
   let percent = 0;
   let offset;
   let allSolved = 0;
@@ -64,7 +64,7 @@ router.get('/:username', async (req, res) => {
       hard = data.data.matchedUser.submitStats.acSubmissionNum[3].count;
       hardPercentage = (data.data.matchedUser.submitStats.acSubmissionNum[3].count*100)/data.data.allQuestionsCount[3].count;
 
-      const svg = `<svg width="350" height="200" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      const svg = `<svg width="350" height="210" viewBox="0 0 350 210" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <style>
         * {
           font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -72,7 +72,7 @@ router.get('/:username', async (req, res) => {
 
         .title {
           font-size: 20px;
-          fill: #EFF2F699;
+          fill: #f3f3f3cf;
         }
 
         .progress-circle {
@@ -103,7 +103,7 @@ router.get('/:username', async (req, res) => {
         }
 
         .overall {
-          font-size: 20px;
+          font-size: 24px;
           font-weight: 500;
           fill: #ffffff;
         }
@@ -112,10 +112,15 @@ router.get('/:username', async (req, res) => {
           font-size: 12px;
           fill: #EFF2F699;
         }
+
+        .username {
+          font-weight: 700;
+          fill: #e3e2e2eb;
+        }
       </style>
         <rect
           width="350"
-          height="200"
+          height="210"
           fill="#151515"
           stroke-width="1"
           stroke="#f1f1f1"
@@ -125,7 +130,7 @@ router.get('/:username', async (req, res) => {
           <text
             transform="translate(25, 40)"
             class="title"
-          >Lshiroc's LeetCode stats</text>
+          ><tspan class="username">Lshiroc</tspan>'s LeetCode stats</text>
         </g>
         <g
           transform="translate(20, 80)"
@@ -138,12 +143,12 @@ router.get('/:username', async (req, res) => {
             >${allSolved}</text>
             <text
               class="solvedText"
-              transform="translate(32, 68)"
+              transform="translate(32, 71)"
             >Solved</text>
             <circle
               cx="50"
               cy="50"
-              r="40"
+              r="50"
               stroke-width="3"
               stroke="#4a4a4a"
               fill="transparent"
@@ -151,7 +156,7 @@ router.get('/:username', async (req, res) => {
             <circle
               cx="50"
               cy="50"
-              r="40"
+              r="50"
               stroke-width="5"
               stroke="#ffa116"
               fill="transparent"
@@ -163,7 +168,7 @@ router.get('/:username', async (req, res) => {
           </g>
         </g>
         <g
-          transform="translate(120, 0)"
+          transform="translate(120, -5)"
         >
           <g
             transform="translate(20, 80)"
@@ -215,7 +220,7 @@ router.get('/:username', async (req, res) => {
         </g>
       </g>
       <g
-        transform="translate(120, 80)"
+        transform="translate(120, 85)"
       >
         <g
           transform="translate(20, 80)"
