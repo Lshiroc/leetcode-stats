@@ -23,11 +23,13 @@ Replace `{username}` with your LeetCode username.
 ```
 
 ## Notice
-To avoid case sensetive username problems, your username will be displayed in the way you entered in url. For example:
+To avoid case sensetive username problems, your username will be displayed in the way you entered in url. There is a case difference between `.../lshiroc` and `.../Lshiroc`.
 
-If you type `.../dark/lshiroc`, result will be:
+For example:
 
-[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/lshiroc)
+If you type `.../light/lshiroc`, result will be:
+
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/light/lshiroc)
 
 If you type `.../dark/Lshiroc`, result will be:
 
