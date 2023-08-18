@@ -26,7 +26,9 @@ Replace `{username}` with your LeetCode username.
 To avoid case sensetive username problems, your username will be displayed in the way you entered in url. For example:
 
 If you type `.../dark/lshiroc`, result will be:
-[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/dark/lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/lshiroc)
+
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/lshiroc)
 
 If you type `.../dark/Lshiroc`, result will be:
+
 [![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/dark/Lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/Lshiroc)
