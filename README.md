@@ -9,7 +9,7 @@ You can copy the markdown link and simply paste to your ReadMe.
 
 Replace `{username}` with your LeetCode username.
 
-[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/sithis)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)
 ```
 [![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/{username})](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)
 ```
@@ -17,7 +17,16 @@ Replace `{username}` with your LeetCode username.
 * ### Dark Theme
 Replace `{username}` with your LeetCode username.
 
-[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/dark/lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)
 ```
 [![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/dark/{username})](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)
 ```
+
+## Notice
+To avoid case sensetive username problems, your username will be displayed in the way you entered in url. For example:
+
+If you type `.../dark/lshiroc`, result will be:
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/dark/lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)
+
+If you type `.../dark/Lshiroc`, result will be:
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/dark/Lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/sithis)

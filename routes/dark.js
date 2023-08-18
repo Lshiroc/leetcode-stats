@@ -130,7 +130,7 @@ router.get('/:username', async (req, res) => {
           <text
             transform="translate(25, 40)"
             class="title"
-          ><tspan class="username">Lshiroc</tspan>'s LeetCode stats</text>
+          ><tspan class="username">${req.params.username}</tspan>'s LeetCode stats</text>
         </g>
         <g
           transform="translate(20, 80)"
