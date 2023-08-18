@@ -116,9 +116,9 @@ router.get('/:username', async (req, res) => {
         <rect
           width="350"
           height="200"
-          fill="#282827"
+          fill="#151515"
           stroke-width="1"
-          stroke="#171717"
+          stroke="#f1f1f1"
           rx="4.5"
         />
         <g>
