@@ -9,9 +9,9 @@ You can copy the markdown link and simply paste to your ReadMe.
 
 Replace `{username}` with your LeetCode username.
 
-[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/Lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/dark/Lshiroc)
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/Lshiroc)](https://zeynalmardanli-leetcode-stats.vercel.app/light/Lshiroc)
 ```
-[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/{username})](https://zeynalmardanli-leetcode-stats.vercel.app/dark/Lshiroc)
+[![LeetCode Stats](https://zeynalmardanli-leetcode-stats.vercel.app/light/{username})](https://zeynalmardanli-leetcode-stats.vercel.app/light/Lshiroc)
 ```
 
 * ### Dark Theme
